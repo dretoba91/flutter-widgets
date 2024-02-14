@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets_tasks/components/design1.dart';
+// import 'package:flutter_widgets_tasks/components/bottom_app_bar.dart';
+import 'package:flutter_widgets_tasks/components/FAB_with_bottomAppBar/bottom_appbar.dart';
+// import 'package:flutter_widgets_tasks/components/design1.dart';
+// import 'package:flutter_widgets_tasks/components/tab_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +35,8 @@ class MyApp extends StatelessWidget {
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SideMenu(),
+      debugShowCheckedModeBanner: false,
+      home: const MyBottomBar(),
     );
   }
 }
