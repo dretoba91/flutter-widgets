@@ -3,6 +3,7 @@ import 'package:flutter_widgets_tasks/components/Expanded_Panel/expanded_panel.d
 // import 'package:flutter_widgets_tasks/components/bottom_app_bar.dart';
 import 'package:flutter_widgets_tasks/components/FAB_with_bottomAppBar/bottom_appbar.dart';
 import 'package:flutter_widgets_tasks/components/dialog/alert_dialog.dart';
+import 'package:flutter_widgets_tasks/components/image_animation/image_animation.dart';
 import 'package:flutter_widgets_tasks/components/input_fields/input_fields.dart';
 // import 'package:flutter_widgets_tasks/components/design1.dart';
 // import 'package:flutter_widgets_tasks/components/tab_bar.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyTextField(),
+      home: const MyImageAnimation(),
     );
   }
 }
