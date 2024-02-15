@@ -32,7 +32,7 @@ class _MyExpandedPanelState extends State<MyExpandedPanel> {
                     isExpanded: item.isExpanded,
                     headerBuilder: (context, isExpand) => ListTile(
                       title: Text(
-                        "$item.header",
+                        item.header,
                       ),
                     ),
                     body: ListTile(
